@@ -1,0 +1,43 @@
+{
+    // Files
+    "files.autoSave": "onFocusChange",
+    "files.exclude": {
+      "**/.git": true,
+      "**/.svn": true,
+      "**/.hg": true,
+      "**/CVS": true,
+      "**/.DS_Store": true,
+      "**/.idea": true
+    },
+    "files.trimFinalNewlines": true,
+    "files.trimTrailingWhitespace": true,
+
+    // Editor
+    "editor.fontFamily": "Noto Sans Mono, Menlo, monospace",
+    "editor.insertSpaces": false,
+    "editor.minimap.enabled": false,
+    "editor.mouseWheelZoom": true,
+    "editor.overviewRulerBorder": false,
+    "editor.renderIndentGuides": false,
+    "editor.renderLineHighlight": "gutter",
+
+    // Window
+    "window.nativeTabs": true,
+
+    // Workbench
+    "workbench.startupEditor": "newUntitledFile",
+    "workbench.statusBar.feedback.visible": false,
+
+    // Telemetry
+    "telemetry.enableCrashReporter": false,
+    "telemetry.enableTelemetry": false,
+    "extensions.ignoreRecommendations": false,
+
+    // File Types
+    "[log]": {
+      "editor.wordWrap": "on",
+      "editor.minimap.enabled": true,
+      "editor.minimap.showSlider": "always",
+      "editor.minimap.side": "left"
+    }
+}
